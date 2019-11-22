@@ -19,21 +19,23 @@
     background-repeat: no-repeat;
 }
 
+.squish {
+    margin: 0 30px;
+}
 
 .content {
     min-height: calc(100vh - 264px);
 }
 
+
+
 .content-container {
-    padding: 40px 0;
+    padding: 40px 1.5%;
 }
 
 .content-header {
     padding-bottom: 30px;
 }
-
-
-
 
 .footer {
     height: 200px;

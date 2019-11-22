@@ -38,7 +38,8 @@ const Colors = {
 // console.log(Colors)
 const proxyurl = "https://cors-anywhere.herokuapp.com/";
 const url = "https://app.conserv.io/data/api/health/db";
-
+const height = document.documentElement.clientHeight *.8;
+const width = document.documentElement.clientWidth *.8;
 
 class Graph extends Component {
 	constructor({ val1, val2, val3, header }) {
@@ -74,8 +75,8 @@ class Graph extends Component {
 		return (
 			<div>
 				<LineChart
-					width={800}
-					height={400}
+					width={width}
+					height={height}
 					data={this.state.readings}
 					margin={{ top: 5, right: 20, left: 10, bottom: 5 }}
 				>

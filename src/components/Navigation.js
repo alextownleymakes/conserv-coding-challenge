@@ -9,6 +9,7 @@ import Rh from './Rh';
 import Vis from './Vis';
 import Uv from './Uv';
 import Dewpoint from './Dewpoint';
+import All from './All';
 
 class Navigation extends Component {
     render() {
@@ -16,6 +17,7 @@ class Navigation extends Component {
             <Router>
                 <Header />
                 <Switch>
+                    <Route path="//" component={All}/>
                     <Route path="/temp1" component={Temp1}/>
                     <Route path="/temp2" component={Temp2}/>
                     <Route path="/ir" component={Ir}/>

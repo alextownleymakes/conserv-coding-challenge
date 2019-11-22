@@ -14,20 +14,23 @@ class Temp1 extends Component {
 
     render() {
         return (
-            <div className="container content-container">
-                <div className="row">
-                    <div className="col-12 content-header">
-                        <center><h1>{this.state.header}</h1></center>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-2"></div>
-                    <div classname="col-8">
+			<div>
+				<div className="container content-container">
+					<div className="row">
+						<div className="col-12 content-header">
+							<center>
+								<h1>{this.state.header}</h1>
+							</center>
+						</div>
+					</div>
+					<div className="row">
+						<div className="col-2"></div>
+						<div classname="col-8"></div>
                         <Graph val1={this.state.val1} val2={this.state.val2} val3={this.state.val3}/>
-                    </div>
-                    <div className="col-2"></div>
-                </div>
-            </div>
+                        </div>
+					<div className="col-2"></div>
+				</div>
+			</div>
         )
 
     }
