@@ -11,11 +11,6 @@ class App extends Component {
 			<React.Fragment>
 				<Navigation />
 			</React.Fragment>
-			// <div className="container-fluid no-padding wrapper">
-			// 	<Header />
-			// 	<Graph />
-			// 	<Footer />
-			// </div>
 		)
 
 	}

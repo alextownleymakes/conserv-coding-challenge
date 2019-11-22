@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Content from './Content'
 
-
 class Vis extends Component {
 	constructor() {
 		super()

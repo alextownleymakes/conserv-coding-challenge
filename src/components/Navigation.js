@@ -17,7 +17,6 @@ class Navigation extends Component {
             <Router>
                 <Header />
                 <Switch>
-                    <Route path="//" component={All}/>
                     <Route path="/temp1" component={Temp1}/>
                     <Route path="/temp2" component={Temp2}/>
                     <Route path="/ir" component={Ir}/>
@@ -25,6 +24,7 @@ class Navigation extends Component {
                     <Route path="/vis" component={Vis}/>
                     <Route path="/uv" component={Uv}/>
                     <Route path="/dewpoint" component={Dewpoint}/>
+                    <Route path="/" component={All}/>
                 </Switch>
                 <Footer />
             </Router>

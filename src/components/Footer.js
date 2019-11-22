@@ -5,7 +5,6 @@ class Footer extends Component {
 	render() {
 		return(
 			
-			
 			<div className="container-fluid footer">
 			<div className="push"></div>
 				<div className="row">
@@ -22,7 +21,6 @@ class Footer extends Component {
 				</div>
 			</div>
 		)
-
 	}
 }
 

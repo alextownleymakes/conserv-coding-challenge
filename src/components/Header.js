@@ -13,7 +13,7 @@ class Header extends Component {
 			<div className="container-fluid header">
 				<div className="row squish">
 					<div className="col-3 logoDiv" onclick="location.href='/'">
-						<a style={logoLink} href="/"></a>
+						<a style={logoLink} href="/">&nbsp;</a>
 					</div>
 					<div className="col-9">
 						<div className="navbar navbar-light bg-light navbar-expand-lg">

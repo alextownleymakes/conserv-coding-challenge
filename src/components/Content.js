@@ -32,7 +32,6 @@ class Temp1 extends Component {
 				</div>
 			</div>
         )
-
     }
 }
 

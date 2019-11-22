@@ -1,4 +1,4 @@
-let Colors = {
+const Colors = {
     avg_dewpoint: "#6A8D73",
     avg_rh: "#DDFC74",
     avg_temp1: "#FF6978",
@@ -19,3 +19,5 @@ let Colors = {
     min_uv: "#DFC2F2",
     min_vis: "#394648"
 }
+
+export default Colors;
